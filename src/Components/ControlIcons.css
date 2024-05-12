@@ -1,0 +1,48 @@
+.controls__div {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; /* Center align items for better layout */
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 5px; /* Add padding for better spacing */
+    border-radius: 5px; /* Add border-radius for a softer look */
+    /*backdrop-filter: blur(10px);  Add backdrop-filter for a frosted glass effect */
+}
+
+.controls__nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; /* Center align items for better layout */
+}
+
+.controls__icons {
+    color: #999;
+    font-size: 32px; /* Decrease icon size for better proportion */
+    transition: all 0.3s ease; /* Add transition for smoother hover effect */
+}
+
+.controls__icons:hover {
+    color: #fff;
+    transform: scale(1.1); /* Increase scale on hover for a slight zoom effect */
+}
+
+.bottom__icons {
+    color: #999;
+}
+
+.bottom__icons:hover {
+    color: #999;
+}
+
+.volume__slider {
+    width: 80%; /* Adjust width for better responsiveness */
+    margin-top: 10px; /* Adjust margin for better alignment */
+    color: #999;
+}

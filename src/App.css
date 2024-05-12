@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif; /* Change default font to a more modern sans-serif font */
+}
+
+.header__section {
+  text-align: center;
+  height: 60px; /* Increase header height for better visibility */
+  background-color: #4a4a4a; /* Change background color to a darker shade for better contrast */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__text {
+  color: white;
+  font-size: 24px; /* Decrease font size for better proportion */
+  font-weight: bold; /* Remove redundant font weight declaration */
+}
+
+.playerDiv {
+  width: 100%;
+  position: relative;
+  padding: 5px; /* Add padding for better spacing */
+  background-color: #f2f2f2; /* Add background color to player container for better contrast */
+  border-radius: 5px; /* Add border radius for a softer look */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+}
