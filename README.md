@@ -25,7 +25,7 @@ The page will reload when you make changes.\
 
 ### Live Application URL
 
-### https://video-player-main-umber.vercel.app/
+### https://media-player-phi-rust.vercel.app/
 This URL has the application deployed in
 
 
