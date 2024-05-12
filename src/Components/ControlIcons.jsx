@@ -252,7 +252,7 @@ const ControlIcons = ({
                   )}
                 </IconButton>
 
-                <Typography style={{ color: '#999', paddingTop: '5px' }}>{volume * 100}</Typography>
+                <Typography style={{ color: '#999', paddingTop: '5px' }}>{parseInt(volume * 100)}</Typography>
                 <Slider
                   min={0}
                   max={100}
