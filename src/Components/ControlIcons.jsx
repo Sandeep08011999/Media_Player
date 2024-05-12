@@ -293,17 +293,17 @@ const ControlIcons = ({
                 </Grid>
               </Popover>
 
-              <IconButton className="bottom__icons" onClick={fullScreenMode}>
-                <Fullscreen fontSize="large" />
+              <IconButton  onClick={fullScreenMode}>
+                <Fullscreen fontSize="large" style={{ color: 'silver' }}  />
               </IconButton>
             </Grid>
             <Grid item>
-              <IconButton className="controls__icons" aria-label="Previous" onClick={previousVideo}>
-                Prev
+              <IconButton  aria-label="Previous" onClick={previousVideo}>
+               <p style={{ color: 'silver' }}>Prev</p>
                 <FastRewind fontSize="large" style={{ color: 'silver' }} />
               </IconButton>
-              <IconButton className="controls__icons" aria-label="Next" onClick={nextVideo}>
-                Next
+              <IconButton  aria-label="Next" onClick={nextVideo}>
+              <p style={{ color: 'silver' }}> Next</p>
                 <FastForwardSharp fontSize="large" style={{ color: 'silver' }} />
               </IconButton>
             </Grid>
