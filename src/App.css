@@ -7,10 +7,11 @@
 .header__section {
   text-align: center;
   height: 60px; /* Increase header height for better visibility */
-  background-color: #4a4a4a; /* Change background color to a darker shade for better contrast */
+  background-color: #212121; /* Change background color to a darker shade for better contrast */
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 4px;
 }
 
 .header__text {
@@ -22,8 +23,13 @@
 .playerDiv {
   width: 100%;
   position: relative;
-  padding: 5px; /* Add padding for better spacing */
-  background-color: #f2f2f2; /* Add background color to player container for better contrast */
-  border-radius: 5px; /* Add border radius for a softer look */
+  padding: 10px; /* Add padding for better spacing */
+  background-color: #f4eff8 ; /* Add background color to player container for better contrast */
+  border-radius: 2px; /* Add border radius for a softer look */
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+  margin-top: 10px;
+  min-width: 100px ;
+  min-height: 500px;
+  margin: 5px;
 }
+
