@@ -31,8 +31,9 @@ This URL has the application deployed in
 
 ### Screen-Shot
 
-<img width="749" alt="image" src="https://github.com/Sandeep08011999/Media_Player/assets/154302999/e07c1af9-2427-401c-a369-6d1fcc03ebc1">
-Image
+<img width="751" alt="image" src="https://github.com/Sandeep08011999/Media_Player/assets/154302999/0ad142f9-e5ab-4426-aed2-6e82db16d0ff">
+
+
 
 
 
