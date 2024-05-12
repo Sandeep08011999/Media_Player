@@ -24,19 +24,6 @@ const format = (seconds) => {
     return `${mm}:${ss}`;
   }
 };
-/*
-const videoUrls = [
- 
-  //  video URLs here,
-  "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4",
-  "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
-  "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4",
-
- //  audio URLs here
- "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
- "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3"
-];
-*/
 function App() {
   const [playerstate, setPlayerState] = useState({
     playing: true,
